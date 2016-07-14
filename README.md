@@ -63,6 +63,8 @@ When connection open:
 
 #### Start VM
 - vagrant up
+- login into GUI
+- default username is vagrant and password is vagrant
 
 #### If you want to destroy VM
 - vagrant destroy
