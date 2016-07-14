@@ -66,6 +66,27 @@ When connection open:
 - login into GUI
 - default username is vagrant and password is vagrant
 
+#### For finnish users set reqional settings
+English as UI Language, but keyboard and formats as finnish
+
+- Open System Settings
+- Go to Language Support
+- Select Regional Formats
+    - Select 'suomi'
+    - Apply System-wide
+    - Change Keyboard input method system from ibus to none to avoid hang issues with IDEA
+- Go to Region & Language
+    - Formats Tab
+        - Select Finnish
+    - Input Source Tab
+        - Select '+'
+        - Select finnish keyboard
+        - remove english keyboard
+    - System Tab
+        - Copy settings to system settings
+
+YOU ARE READY!
+
 #### If you want to destroy VM
 - vagrant destroy
 
