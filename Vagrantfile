@@ -33,7 +33,7 @@ Vagrant.configure(2) do |config|
 		vb.gui = true
 		vb.name = "devbox1.2"
 		# Customize the amount of memory on the VM:
-		vb.memory = "1500"
+		vb.memory = "4096"
 		vb.cpus = 2
 		vb.customize ["modifyvm", :id, "--vram", "96"]
 	  end
